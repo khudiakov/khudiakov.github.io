@@ -1,4 +1,4 @@
-$.get( "https://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=nature&rating=g", function( data ) {
+$.get( "https://api.giphy.com/v1/gifs/random?api_key=GBUNZ1t27t3JVzDf6xe60APJzvsxUatt&tag=nature&rating=g", function( data ) {
     $("body").css("background-image","url("+data["data"]["image_url"]+")");
 });
 
